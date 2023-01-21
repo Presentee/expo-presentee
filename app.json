@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "expo-presentee",
-    "slug": "expo-presentee",
+    "slug": "presentee",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/1b001599-8892-46f0-be5e-1ec0c1311d3b"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -28,6 +29,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1b001599-8892-46f0-be5e-1ec0c1311d3b"
+      }
+    },
+    "owner": "clrminded",
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
